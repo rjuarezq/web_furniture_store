@@ -1,0 +1,20 @@
+
+
+
+/*Selectores descendientes*/
+.main-title span {
+    /*color: #162be6*/
+    color: rgb(0 68 255 /.9); /*Actualizado*/
+}
+
+.main-nav a {
+    color: #0f1013;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.about-us {
+    background-color: #385a81;
+    width: 200px;
+    padding: 25px;
+}
