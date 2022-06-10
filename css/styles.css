@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
 }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -7,21 +8,37 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+   
 }
 
 h1,h2,h3 {
     font-family: 'Playfair Display', serif;
+    margin: 5rem 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 3rem;
 }
 
 /*Global Selectors*/
 a {
     color: #000000;
     text-decoration: none;
-    text-transform: Capitalized;
+    text-transform: capitalize;
 }
 
 .container {
-    max-width: 1200px; 
+    max-width: 120rem; 
     margin: 0 auto;
 }
 
@@ -33,7 +50,6 @@ img {
 /*Nav & Header Selectors*/
 /*Selectores descendientes*/
 .main-title {
-    margin: 50px 0;
     text-align: center;
 }
 
@@ -46,17 +62,18 @@ img {
 }
 
 .main-nav{
-    padding: 20px 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
 
 .hero {
     background-image: url(../img/principal.jpg);
-    height: 500px;
+    height: 50rem;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    background-position: center center;
 }
 
 /*categories*/
@@ -68,19 +85,19 @@ img {
 .list-category{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 25px;
+    row-gap: 2rem;
+    column-gap: 2.5rem;
 }
 
 .box-category a{
-    padding: 10px 0;
-    font-size: 20px;
+    padding: 1rem 0;
+    font-size: 2rem;
     display: block;
     text-align: center;
     background-color: #036fb9;
     color: #fff;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 
 }
 
@@ -89,3 +106,4 @@ img {
     color: #fff;
 }
 
+/*About us*/
