@@ -107,3 +107,23 @@ img {
 }
 
 /*About us*/
+.about-us {
+    margin-top: 5rem;
+    background-image: linear-gradient(to right, transparent 50%, #036fb9 50%, #036fb9 100%), url(../img/nosotros.jpg);
+    background-position: left center;
+    padding: 7rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+}
+
+.about-us-flex {  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.text-about-us {
+    flex-basis: 50%;
+    padding-left: 7rem;
+    color: #fff;
+}
